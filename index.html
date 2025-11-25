@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>语音转换 Top 20 效果展示</title>
+    <style>
+        body { font-family: 'Roboto', sans-serif; max-width: 1200px; margin: 0 auto; padding: 40px 20px; color: #333; }
+        h1 { text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin: 30px 0; box-shadow: 0 2px 15px rgba(0,0,0,0.1); }
+        th, td { padding: 15px; text-align: center; border-bottom: 1px solid #ddd; }
+        th { background-color: #f8f9fa; font-weight: bold; }
+        tr:hover { background-color: #f1f1f1; }
+        audio { width: 200px; height: 40px; }
+        .sim-score { font-weight: bold; color: #2c7be5; }
+        .filename { font-size: 0.8em; color: #666; display: block; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Top 20 语音转换效果 (按相似度排序)</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Source (源)</th>
+                <th>Target (目标)</th>
+                <th>Result (结果)</th>
+                <th>Sim</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><audio controls src="audio/1320-122617-0014.wav"></audio><span class="filename">1320-122617-0014.wav</span></td>
+                <td><audio controls src="audio/1320-122617-0019.wav"></audio><span class="filename">1320-122617-0019.wav</span></td>
+                <td><audio controls src="audio/1320-122617-0014__TO__1320-122617-0019.wav"></audio><span class="filename">1320-122617-0014__TO__1320-122617-0019.wav</span></td>
+                <td class="sim-score">0.9865</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><audio controls src="audio/1188-133604-0022.wav"></audio><span class="filename">1188-133604-0022.wav</span></td>
+                <td><audio controls src="audio/1188-133604-0028.wav"></audio><span class="filename">1188-133604-0028.wav</span></td>
+                <td><audio controls src="audio/1188-133604-0022__TO__1188-133604-0028.wav"></audio><span class="filename">1188-133604-0022__TO__1188-133604-0028.wav</span></td>
+                <td class="sim-score">0.9864</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><audio controls src="audio/1221-135767-0000.wav"></audio><span class="filename">1221-135767-0000.wav</span></td>
+                <td><audio controls src="audio/1221-135767-0012.wav"></audio><span class="filename">1221-135767-0012.wav</span></td>
+                <td><audio controls src="audio/1221-135767-0000__TO__1221-135767-0012.wav"></audio><span class="filename">1221-135767-0000__TO__1221-135767-0012.wav</span></td>
+                <td class="sim-score">0.9855</td>
+            </tr>
+             <tr>
+                <td>4</td>
+                <td><audio controls src="audio/4992-41797-0001.wav"></audio><span class="filename">4992-41797-0001.wav</span></td>
+                <td><audio controls src="audio/4992-41797-0015.wav"></audio><span class="filename">4992-41797-0015.wav</span></td>
+                <td><audio controls src="audio/4992-41797-0001__TO__4992-41797-0015.wav"></audio><span class="filename">4992-41797-0001__TO__4992-41797-0015.wav</span></td>
+                <td class="sim-score">0.9839</td>
+            </tr>
+             <tr>
+                <td>5</td>
+                <td><audio controls src="audio/1580-141084-0008.wav"></audio><span class="filename">1580-141084-0008.wav</span></td>
+                <td><audio controls src="audio/1580-141084-0024.wav"></audio><span class="filename">1580-141084-0024.wav</span></td>
+                <td><audio controls src="audio/1580-141084-0008__TO__1580-141084-0024.wav"></audio><span class="filename">1580-141084-0008__TO__1580-141084-0024.wav</span></td>
+                <td class="sim-score">0.9836</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><audio controls src="audio/7176-92135-0009.wav"></audio><span class="filename">7176-92135-0009.wav</span></td>
+                <td><audio controls src="audio/7176-92135-0043.wav"></audio><span class="filename">7176-92135-0043.wav</span></td>
+                <td><audio controls src="audio/7176-92135-0009__TO__7176-92135-0043.wav"></audio><span class="filename">7176-92135-0009__TO__7176-92135-0043.wav</span></td>
+                <td class="sim-score">0.9795</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><audio controls src="audio/260-123440-0004.wav"></audio><span class="filename">260-123440-0004.wav</span></td>
+                <td><audio controls src="audio/260-123288-0008.wav"></audio><span class="filename">260-123288-0008.wav</span></td>
+                <td><audio controls src="audio/260-123440-0004__TO__260-123288-0008.wav"></audio><span class="filename">260-123440-0004__TO__260-123288-0008.wav</span></td>
+                <td class="sim-score">0.9792</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><audio controls src="audio/1188-133604-0023.wav"></audio><span class="filename">1188-133604-0023.wav</span></td>
+                <td><audio controls src="audio/7021-85628-0002.wav"></audio><span class="filename">7021-85628-0002.wav</span></td>
+                <td><audio controls src="audio/1188-133604-0023__TO__7021-85628-0002.wav"></audio><span class="filename">1188-133604-0023__TO__7021-85628-0002.wav</span></td>
+                <td class="sim-score">0.9787</td>
+            </tr>
+             <tr>
+                <td>9</td>
+                <td><audio controls src="audio/2830-3980-0054.wav"></audio><span class="filename">2830-3980-0054.wav</span></td>
+                <td><audio controls src="audio/1188-133604-0008.wav"></audio><span class="filename">1188-133604-0008.wav</span></td>
+                <td><audio controls src="audio/2830-3980-0054__TO__1188-133604-0008.wav"></audio><span class="filename">2830-3980-0054__TO__1188-133604-0008.wav</span></td>
+                <td class="sim-score">0.9786</td>
+            </tr>
+             <tr>
+                <td>10</td>
+                <td><audio controls src="audio/8455-210777-0002.wav"></audio><span class="filename">8455-210777-0002.wav</span></td>
+                <td><audio controls src="audio/8455-210777-0005.wav"></audio><span class="filename">8455-210777-0005.wav</span></td>
+                <td><audio controls src="audio/8455-210777-0002__TO__8455-210777-0005.wav"></audio><span class="filename">8455-210777-0002__TO__8455-210777-0005.wav</span></td>
+                <td class="sim-score">0.9780</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td><audio controls src="audio/8555-284449-0004.wav"></audio><span class="filename">8555-284449-0004.wav</span></td>
+                <td><audio controls src="audio/8555-292519-0009.wav"></audio><span class="filename">8555-292519-0009.wav</span></td>
+                <td><audio controls src="audio/8555-284449-0004__TO__8555-292519-0009.wav"></audio><span class="filename">8555-284449-0004__TO__8555-292519-0009.wav</span></td>
+                <td class="sim-score">0.9779</td>
+            </tr>
+             <tr>
+                <td>12</td>
+                <td><audio controls src="audio/5105-28241-0001.wav"></audio><span class="filename">5105-28241-0001.wav</span></td>
+                <td><audio controls src="audio/1320-122617-0020.wav"></audio><span class="filename">1320-122617-0020.wav</span></td>
+                <td><audio controls src="audio/5105-28241-0001__TO__1320-122617-0020.wav"></audio><span class="filename">5105-28241-0001__TO__1320-122617-0020.wav</span></td>
+                <td class="sim-score">0.9779</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td><audio controls src="audio/5683-32879-0012.wav"></audio><span class="filename">5683-32879-0012.wav</span></td>
+                <td><audio controls src="audio/5683-32866-0018.wav"></audio><span class="filename">5683-32866-0018.wav</span></td>
+                <td><audio controls src="audio/5683-32879-0012__TO__5683-32866-0018.wav"></audio><span class="filename">5683-32879-0012__TO__5683-32866-0018.wav</span></td>
+                <td class="sim-score">0.9776</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td><audio controls src="audio/1320-122617-0019.wav"></audio><span class="filename">1320-122617-0019.wav</span></td>
+                <td><audio controls src="audio/1320-122617-0014.wav"></audio><span class="filename">1320-122617-0014.wav</span></td>
+                <td><audio controls src="audio/1320-122617-0019__TO__1320-122617-0014.wav"></audio><span class="filename">1320-122617-0019__TO__1320-122617-0014.wav</span></td>
+                <td class="sim-score">0.9772</td>
+            </tr>
+             <tr>
+                <td>15</td>
+                <td><audio controls src="audio/5683-32866-0014.wav"></audio><span class="filename">5683-32866-0014.wav</span></td>
+                <td><audio controls src="audio/5683-32866-0018.wav"></audio><span class="filename">5683-32866-0018.wav</span></td>
+                <td><audio controls src="audio/5683-32866-0014__TO__5683-32866-0018.wav"></audio><span class="filename">5683-32866-0014__TO__5683-32866-0018.wav</span></td>
+                <td class="sim-score">0.9771</td>
+            </tr>
+             <tr>
+                <td>16</td>
+                <td><audio controls src="audio/3570-5695-0010.wav"></audio><span class="filename">3570-5695-0010.wav</span></td>
+                <td><audio controls src="audio/3570-5695-0006.wav"></audio><span class="filename">3570-5695-0006.wav</span></td>
+                <td><audio controls src="audio/3570-5695-0010__TO__3570-5695-0006.wav"></audio><span class="filename">3570-5695-0010__TO__3570-5695-0006.wav</span></td>
+                <td class="sim-score">0.9770</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td><audio controls src="audio/8555-292519-0009.wav"></audio><span class="filename">8555-292519-0009.wav</span></td>
+                <td><audio controls src="audio/8230-279154-0041.wav"></audio><span class="filename">8230-279154-0041.wav</span></td>
+                <td><audio controls src="audio/8555-292519-0009__TO__8230-279154-0041.wav"></audio><span class="filename">8555-292519-0009__TO__8230-279154-0041.wav</span></td>
+                <td class="sim-score">0.9767</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td><audio controls src="audio/3729-6852-0022.wav"></audio><span class="filename">3729-6852-0022.wav</span></td>
+                <td><audio controls src="audio/1284-1181-0008.wav"></audio><span class="filename">1284-1181-0008.wav</span></td>
+                <td><audio controls src="audio/3729-6852-0022__TO__1284-1181-0008.wav"></audio><span class="filename">3729-6852-0022__TO__1284-1181-0008.wav</span></td>
+                <td class="sim-score">0.9765</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td><audio controls src="audio/1580-141084-0008.wav"></audio><span class="filename">1580-141084-0008.wav</span></td>
+                <td><audio controls src="audio/1580-141084-0010.wav"></audio><span class="filename">1580-141084-0010.wav</span></td>
+                <td><audio controls src="audio/1580-141084-0008__TO__1580-141084-0010.wav"></audio><span class="filename">1580-141084-0008__TO__1580-141084-0010.wav</span></td>
+                <td class="sim-score">0.9765</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td><audio controls src="audio/1320-122617-0019.wav"></audio><span class="filename">1320-122617-0019.wav</span></td>
+                <td><audio controls src="audio/8455-210777-0002.wav"></audio><span class="filename">8455-210777-0002.wav</span></td>
+                <td><audio controls src="audio/1320-122617-0019__TO__8455-210777-0002.wav"></audio><span class="filename">1320-122617-0019__TO__8455-210777-0002.wav</span></td>
+                <td class="sim-score">0.9760</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
